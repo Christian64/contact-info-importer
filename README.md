@@ -1,6 +1,8 @@
 # Contact Info Importer
 Simple and quick project test interview
 
+***-CSV EXAMPLE FILES ARE IN PUBLIC FOLDER-***
+
 **Quick Start**
 first you need to clone this repository in your local machine.
 `git clone https://www.github.com/Christian64/contact-info-importer`

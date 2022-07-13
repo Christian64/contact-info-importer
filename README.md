@@ -1,4 +1,4 @@
-#Contact Info Importer
+# Contact Info Importer
 Simple and quick project test interview
 
 **Quick Start**
@@ -22,7 +22,7 @@ Run de server
 
 `npm run dev`
 
-##Api endpoints
+## Api endpoints
 
 ***Note***: Each endpoint except ```/users/login``` & ```/users``` must to include Bearer token (```Bearer {myToken}```) in the head request
 
@@ -34,24 +34,22 @@ Run de server
 |     Get   |   `/contactInfo`    |  Contacts list  |
 |     Get   |   `/files`    |   Files uploads list |
 
-####/users - POST
+#### /users - POST
 ```
 {
     "email": String,
     "password": String,
     "username": String
 }
-
 ```
-####/users/login - POST
+#### /users/login - POST
 ```
 {
     "email": String,
     "password": String
 }
-
 ```
-####/contactInfo - POST
+#### /contactInfo - POST
 **form-data**
 | name     | type |    description     |
 |------    |------|--------------------|
@@ -60,7 +58,7 @@ Run de server
 
 ***example***: fields['Name', 'Date Of Birth', 'Phone']
 
-####/contactInfo - GET
+#### /contactInfo - GET
 
 **Params**
 |  Query  | Type | description |
@@ -71,5 +69,5 @@ Run de server
 
 ***Request example***: `GET - /contactInfo?limit=10&page=0&actives=true`   
 
-####/files - GET
+#### /files - GET
 just send the token :)
